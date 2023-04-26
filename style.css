@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+.header__block {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+}
+.logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+}
+.header__menu-item {
+    margin-left: 55px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #bababa;
+    position: relative;
+    transform: 0.3s;
+}
+.header__menu-item-color {
+    width: 70px;
+    height: 30px;
+    color: #bababa;
+    background-color: #621DED;
+    border-radius: 15%;
+    position: relative;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 55px;
+}
+.header__menu a {
+    transition: color 0.5s;
+    display: block;
+}
+.header__menu-item:hover{
+    color: #ffffff;
+}
+.header__menu-item-color:hover{
+    color: #ffffff;
+}
+.header__menu-item-color a:hover::after {
+    width: 100%;
+}
+.header__menu-item a:hover::after {
+    width: 100%;
+}
+.header__menu-item:hover::after{
+    width: 100%;
+}
+.header__menu a {
+    text-decoration: none;
+}
+.section-logo {
+    display: flex;
+    width: 127px;
+    height: 127px;
+    align-items: center;
+    background: url(./img/IMAGE\ \(2\).png);
+}

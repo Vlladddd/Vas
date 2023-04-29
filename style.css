@@ -80,10 +80,19 @@ body {
 .header__menu a {
     text-decoration: none;
 }
-.section-logo {
+.section-title {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-logo {
     width: 127px;
     height: 127px;
-    align-items: center;
     background: url(./img/IMAGE\ \(2\).png);
+}
+.uptitle {
+    color: #ffffff;
+}
+h2 {
+    color: #ffffff;
 }
